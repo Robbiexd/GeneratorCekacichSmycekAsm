@@ -1,0 +1,17 @@
+﻿<Window x:Class="GeneratorCekacichSmycekDoAsm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GeneratorCekacichSmycekDoAsm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250.5" Width="236">
+    <Grid>
+        <Button x:Name="generate" Content="Generovat" HorizontalAlignment="Left" Height="45" Margin="0,161,0,0" VerticalAlignment="Top" Width="223" Click="generate_Click"/>
+        <TextBox x:Name="T" HorizontalAlignment="Left" Height="36" Margin="0,24,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Width="223"/>
+        <TextBox x:Name="Fosc" HorizontalAlignment="Left" Height="36" Margin="0,65,0,0" TextWrapping="Wrap" Text="Fosc" VerticalAlignment="Top" Width="223"/>
+        <TextBox x:Name="Nic" HorizontalAlignment="Left" Height="36" Margin="0,106,0,0" TextWrapping="Wrap" Text="Nic" VerticalAlignment="Top" Width="223"/>
+
+
+    </Grid>
+</Window>
