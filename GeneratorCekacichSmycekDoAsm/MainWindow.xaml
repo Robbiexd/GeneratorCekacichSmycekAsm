@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GeneratorCekacichSmycekDoAsm"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250.5" Width="236">
+        Title="ASM Generator" Height="250.5" Width="236">
     <Grid>
-        <Button x:Name="generate" Content="Generovat" HorizontalAlignment="Left" Height="45" Margin="0,161,0,0" VerticalAlignment="Top" Width="223" Click="generate_Click"/>
+        <Button x:Name="generate" Content="Generovat" HorizontalAlignment="Right" Height="45" Margin="0,161,6.333,0" VerticalAlignment="Top" Width="223" Click="generate_Click"/>
         <TextBox x:Name="T" HorizontalAlignment="Left" Height="36" Margin="0,24,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Width="223"/>
         <TextBox x:Name="Fosc" HorizontalAlignment="Left" Height="36" Margin="0,65,0,0" TextWrapping="Wrap" Text="Fosc" VerticalAlignment="Top" Width="223"/>
         <TextBox x:Name="Nic" HorizontalAlignment="Left" Height="36" Margin="0,106,0,0" TextWrapping="Wrap" Text="Nic" VerticalAlignment="Top" Width="223"/>
